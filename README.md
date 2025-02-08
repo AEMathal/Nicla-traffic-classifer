@@ -2,15 +2,8 @@
 
 Nicla-traffic-classifer is a real‑time network traffic monitoring and classification system. The project uses a Python script on a PC to capture network traffic and extract a 19‑element feature vector (Include most important features), which is sent over a serial port to a Nicla Vision board. The Nicla board then runs an Edge Impulse classifier to determine whether the traffic is "Malicious" or "Normal" and indicates the result via an LED (green for normal, red for malicious).
 
-<video width="600" controls>
-  <source src="assets/terminal_view.mov" type="video/mov">
-  Your browser does not support the video tag.
-</video>
-
-<video width="600" controls>
-  <source src="assets/nicla_vision_view.mov" type="video/mov">
-  Your browser does not support the video tag.
-</video>
+![Demo](assets/terminal_view.gif)
+![Demo](assets/nicla_vision_view.gif)
 
 ---
 
@@ -65,8 +58,8 @@ Nicla-traffic-classifer is a real‑time network traffic monitoring and classifi
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/NICLA-TrafficClassifier.git
-   cd NICLA-TrafficClassifier
+   git clone https://github.com/AEMathal/Nicla-traffic-classifer.git
+   cd Nicla-traffic-classifer
    ```
 
 2. **Install Python Dependencies:**
